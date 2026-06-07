@@ -31,3 +31,5 @@ steps:
 
 images:
   - "gcr.io/$PROJECT_ID/landing-page:$COMMIT_SHA"
+options:
+  logging: CLOUD_LOGGING_ONLY
